@@ -1,0 +1,323 @@
+import React from "react";
+import { Link } from "react-router-dom";
+import CostCalculator from "../components/CostCalculator";
+
+function Services() {
+  return (
+    <section className="services-page">
+      <div className="page-header">
+        <div className="page-header-content">
+          <h1>Our Services</h1>
+          <p>Authentic South African spit braai catering for any event, big or small</p>
+        </div>
+      </div>
+
+      <div className="services-container">
+        <div className="service-card">
+          <img 
+            src="https://images.unsplash.com/photo-1529694157872-4e0c0f3b238b?auto=format&fit=crop&w=1500&q=80" 
+            alt="Full Spit Braai Service" 
+            className="service-image"
+          />
+          <div className="service-card-content">
+            <h2 className="service-title">Full Spit Braai Service</h2>
+            <p className="service-description">
+              Our signature service includes everything you need for an authentic South African braai experience. 
+              We handle everything from setup to cleanup, so you can focus on enjoying your event with your guests.
+            </p>
+            <div className="service-details">
+              <div className="service-detail">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>Professional chef and staff on-site</span>
+              </div>
+              <div className="service-detail">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>Spit-roasted lamb, beef, or pork</span>
+              </div>
+              <div className="service-detail">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>Selection of 4 side dishes</span>
+              </div>
+              <div className="service-detail">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>All equipment provided</span>
+              </div>
+              <div className="service-detail">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>Complete setup and cleanup</span>
+              </div>
+            </div>
+            <Link to="/contact" className="cta-btn cta-primary">Get a Quote</Link>
+          </div>
+        </div>
+
+        <div className="service-card">
+          <img 
+            src="https://images.unsplash.com/photo-1579366948929-444eb79881eb?auto=format&fit=crop&w=1500&q=80" 
+            alt="Corporate Events" 
+            className="service-image"
+          />
+          <div className="service-card-content">
+            <h2 className="service-title">Corporate Events</h2>
+            <p className="service-description">
+              Impress your clients and reward your team with an authentic South African culinary experience. 
+              We cater to corporate events of all sizes, from small team gatherings to large company functions.
+            </p>
+            <div className="service-details">
+              <div className="service-detail">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>Customizable menus to fit your event</span>
+              </div>
+              <div className="service-detail">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>Branding opportunities available</span>
+              </div>
+              <div className="service-detail">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>Professional staff in uniform</span>
+              </div>
+              <div className="service-detail">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>Flexible scheduling for busy corporate calendars</span>
+              </div>
+            </div>
+            <Link to="/contact" className="cta-btn cta-primary">Corporate Inquiry</Link>
+          </div>
+        </div>
+
+        <div className="service-card">
+          <img 
+            src="https://images.unsplash.com/photo-1519741347686-c1e331fcb20e?auto=format&fit=crop&w=1500&q=80" 
+            alt="Weddings & Special Occasions" 
+            className="service-image"
+          />
+          <div className="service-card-content">
+            <h2 className="service-title">Weddings & Special Occasions</h2>
+            <p className="service-description">
+              Make your wedding or special celebration truly memorable with our premium catering service. 
+              We work closely with you to create a custom menu that perfectly complements your special day.
+            </p>
+            <div className="service-details">
+              <div className="service-detail">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>Consultation and menu tasting</span>
+              </div>
+              <div className="service-detail">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>Custom menu design</span>
+              </div>
+              <div className="service-detail">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>Elegant presentation options</span>
+              </div>
+              <div className="service-detail">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>Coordination with your venue and other vendors</span>
+              </div>
+            </div>
+            <Link to="/contact" className="cta-btn cta-primary">Wedding Inquiry</Link>
+          </div>
+        </div>
+      </div>
+
+      <div className="packages-section">
+        <h2 className="section-title">Our Packages</h2>
+        <p className="section-subtitle">Choose the perfect catering package for your event</p>
+        
+        <div className="packages-grid">
+          <div className="package-card">
+            <div className="package-header">
+              <h3 className="package-name">Basic Braai</h3>
+              <div className="package-price">R150<span>/person</span></div>
+            </div>
+            <div className="package-content">
+              <div className="package-features">
+                <div className="package-feature">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span>Choice of 1 main meat</span>
+                </div>
+                <div className="package-feature">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span>2 side dishes</span>
+                </div>
+                <div className="package-feature">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span>1 salad option</span>
+                </div>
+                <div className="package-feature">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span>Minimum 20 guests</span>
+                </div>
+              </div>
+              <div className="package-cta">
+                <Link to="/contact" className="package-btn">Book Now</Link>
+              </div>
+            </div>
+          </div>
+
+          <div className="package-card package-popular">
+            <div className="popular-tag">Most Popular</div>
+            <div className="package-header">
+              <h3 className="package-name">Premium Spit</h3>
+              <div className="package-price">R250<span>/person</span></div>
+            </div>
+            <div className="package-content">
+              <div className="package-features">
+                <div className="package-feature">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span>Spit-roasted lamb</span>
+                </div>
+                <div className="package-feature">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span>Additional meat option</span>
+                </div>
+                <div className="package-feature">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span>4 side dishes</span>
+                </div>
+                <div className="package-feature">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span>2 salad options</span>
+                </div>
+                <div className="package-feature">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span>Bread and condiments</span>
+                </div>
+                <div className="package-feature">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span>Minimum 30 guests</span>
+                </div>
+              </div>
+              <div className="package-cta">
+                <Link to="/contact" className="package-btn">Book Now</Link>
+              </div>
+            </div>
+          </div>
+
+          <div className="package-card">
+            <div className="package-header">
+              <h3 className="package-name">Luxury Feast</h3>
+              <div className="package-price">R350<span>/person</span></div>
+            </div>
+            <div className="package-content">
+              <div className="package-features">
+                <div className="package-feature">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span>Spit-roasted lamb</span>
+                </div>
+                <div className="package-feature">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span>2 additional premium meats</span>
+                </div>
+                <div className="package-feature">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span>6 gourmet side dishes</span>
+                </div>
+                <div className="package-feature">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span>3 salad options</span>
+                </div>
+                <div className="package-feature">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span>Artisanal bread & condiments</span>
+                </div>
+                <div className="package-feature">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span>Dessert platter</span>
+                </div>
+                <div className="package-feature">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span>Minimum 40 guests</span>
+                </div>
+              </div>
+              <div className="package-cta">
+                <Link to="/contact" className="package-btn">Book Now</Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section className="calculator-section">
+        <h2 className="section-title">Cost Calculator</h2>
+        <p className="section-subtitle">Get an estimate for your event catering</p>
+        <div className="calculator-container">
+          <CostCalculator />
+        </div>
+      </section>
+
+      <section className="cta-section">
+        <div className="cta-center">
+          <h2>Ready to get started?</h2>
+          <p>Contact us today to discuss your catering needs and get a personalized quote</p>
+          <div className="cta-buttons">
+            <Link to="/contact" className="cta-btn cta-primary">Contact Us</Link>
+            <a href="tel:+27721234567" className="cta-btn">Call Now</a>
+          </div>
+        </div>
+      </section>
+    </section>
+  );
+}
+
+export default Services; 
